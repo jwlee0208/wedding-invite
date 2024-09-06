@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,178 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+} */
+
+
+/* 기본 스타일 */
+.app-container {
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  height: 100vh; /* 각 섹션을 화면 전체 크기로 설정 */
+  /* padding: 20px; */
+  box-sizing: border-box;
+  background-color:#fffaeb
+}
+
+/* Home 섹션에서 Navbar와 겹치지 않도록 기본 패딩 추가 */
+#home {
+  /* background-color: lightblue; */
+  background-color: #fffaeb;
+  padding-top: 60px; /* 기본 Navbar 높이에 맞는 패딩 */
+}
+
+#invite-letter {
+  background-color: #fffaeb;
+}
+
+#invite-letter div h1 {
+  padding : 10px;
+}
+
+
+#invite-letter div p {
+  padding : 10px;
+}
+
+
+
+#event-details {
+  background-color: #fffaeb;
+
+  /* background-color: lightcoral; */
+}
+
+#rsvp {
+  background-color: #fffaeb;
+  /* background-color: lightgreen; */
+}
+
+/* Navbar 고정 스타일 */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 15px 0;
+  z-index: 1000;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar ul li.active a {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
+.navbar ul li a:hover {
+  color: #ddd;
+}
+
+/* 반응형 미디어 쿼리 */
+/* 작은 화면에서는 Navbar의 높이를 줄이고, 패딩도 조정 */
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 10px 0; /* 작은 화면에서 Navbar 높이 */
+  }
+
+  #home {
+    padding-top: 50px; /* 작은 화면에서는 줄어든 Navbar 높이에 맞춘 패딩 */
+  }
+
+  .navbar ul li a {
+    font-size: 16px; /* 작은 화면에서 글자 크기 줄임 */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding: 8px 0; /* 모바일에서 Navbar 높이 */
+  }
+
+  #home {
+    padding-top: 58px; /* 모바일에서 Navbar 높이에 맞춘 패딩 */
+  }
+
+  .navbar ul li {
+    display: block;
+    margin: 10px 0; /* 모바일에서 메뉴 수직 정렬 */
+  }
+
+  .navbar ul li a {
+    font-size: 14px; /* 모바일에서 글자 크기 축소 */
+  }
+}
+
+
+@font-face {
+  font-family: 'NanumMyeongjo';
+  font-weight: 700; 
+  font-style: normal; 
+  src: url(https://cdn.jsdelivr.net/gh/webfontworld/naver/NanumMyeongjoEB.woff2) format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'NanumMyeongjo';
+  font-weight: 500; 
+  font-style: normal; 
+  src: url(https://cdn.jsdelivr.net/gh/webfontworld/naver/NanumMyeongjoB.woff2) format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'NanumMyeongjo';
+  font-weight: 400; 
+  font-style: normal; 
+  src: url(https://cdn.jsdelivr.net/gh/webfontworld/naver/NanumMyeongjo.woff2) format('woff2');
+  font-display: swap;
 }
