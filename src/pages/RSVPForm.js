@@ -24,7 +24,7 @@ function RSVPForm() {
     >
         <br/>  
         <br/>
-        <h1 style={{textAlign:'center'}}>마음 전하실 곳</h1>
+        <h1 style={{textAlign:'center'}}>- 마음 전하실 곳 -</h1>
         <br/>
         <p style={{textAlign:'center',fontSize:'17px'}}>비대면으로 축하해 주실 분들을 위해 </p>
         <p style={{textAlign:'center',fontSize:'17px'}}>계좌번호를 남깁니다.</p>
@@ -36,7 +36,7 @@ function RSVPForm() {
         <p style={{textAlign:'center'}}>계좌번호 : 503202-01-163609 예금주 구송림</p>
         <br/>
         <h3 style={{textAlign:'center'}}>[대만] 郵局&nbsp;
-            <button style={{height:'2.25em', backgroundColor:'white', borderRadius:'20px'}} onClick={() => handleCopyClipBoard('503202-01-163609')}>대만 계좌번호 복사</button>
+            <button style={{height:'2.25em', backgroundColor:'white', borderRadius:'20px'}} onClick={() => handleCopyClipBoard('0041081-0402014')}>대만 계좌번호 복사</button>
         </h3>
         <p style={{textAlign:'center'}}>계좌번호 : 0041081-0402014 예금주 具松林</p>
 

@@ -17,7 +17,7 @@ function InvitationLetter() {
     >
       <br/>  
       <br/>  
-      <h1 style={{textAlign:'center'}}>초대의 말씀</h1>
+      <h1 style={{textAlign:'center'}}>- 초대의 말씀 -</h1>
       <br/>  
       <p style={{textAlign:'center',fontSize:'17px'}}>친애하는 동역자님께</p>
       <p style={{textAlign:'center',fontSize:'17px'}}>한없이 부족한 자가 사별의 아픔을 딛고 </p>

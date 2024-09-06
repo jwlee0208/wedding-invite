@@ -17,11 +17,11 @@ function EventDetails() {
     >
       <br/>  
       <br/>  
-      <h1 style={{textAlign:'center'}}>일자</h1>
+      <h1 style={{textAlign:'center'}}>- 일&nbsp;&nbsp;&nbsp;자 -</h1>
       <p style={{textAlign:'center'}}>2024年 10月 19日(土) 오전 11:00</p>
       <br/>  
       <br/>  
-      <h1 style={{textAlign:'center'}}>오시는 길</h1>
+      <h1 style={{textAlign:'center'}}>- 오시는 길 -</h1>
       <br/>
       <p style={{paddingLeft:'5px', fontSize:20}}>대만 핑동 FISH HOTEL</p>
       <p style={{paddingLeft:'5px', fontSize:15}}>No. 255號, Minsheng Rd, Pingtung City, Pingtung County, Taiwan 900</p>
