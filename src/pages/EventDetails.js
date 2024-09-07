@@ -18,7 +18,7 @@ function EventDetails() {
       <br/>  
       <br/>  
       <h1 style={{textAlign:'center'}}>- 일&nbsp;&nbsp;&nbsp;자 -</h1>
-      <p style={{textAlign:'center'}}>2024年 10月 19日(土) 오전 11:00</p>
+      <p style={{textAlign:'center'}}>2024年 10月 19日(土) 오전 11:30</p>
       <br/>  
       <br/>  
       <h1 style={{textAlign:'center'}}>- 오시는 길 -</h1>
