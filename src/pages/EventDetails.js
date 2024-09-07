@@ -25,8 +25,8 @@ function EventDetails() {
       <br/>
       <p style={{paddingLeft:'5px', fontSize:20}}>대만 핑동 FISH HOTEL</p>
       <p style={{paddingLeft:'5px', fontSize:15}}>No. 255號, Minsheng Rd, Pingtung City, Pingtung County, Taiwan 900</p>
-      <div style={{margin:5}}>
-        <iframe src={url} style={{border:0, width:'350px'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div style={{margin:5, textAlign:'center'}}>
+        <iframe src={url} style={{border:0, width:'350px', height:'200px'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   );
