@@ -20,13 +20,11 @@ function EventDetails() {
       <h1 style={{textAlign:'center'}}>- 일&nbsp;&nbsp;&nbsp;자 -</h1>
       <p style={{textAlign:'center'}}>2024年 10月 19日(土) 오전 11:00</p>
       <br/>  
-      <br/>  
       <h1 style={{textAlign:'center'}}>- 오시는 길 -</h1>
-      <br/>
-      <p style={{paddingLeft:'5px', fontSize:20}}>대만 핑동 FISH HOTEL</p>
-      <p style={{paddingLeft:'5px', fontSize:15}}>No. 255號, Minsheng Rd, Pingtung City, Pingtung County, Taiwan 900</p>
+      <p style={{textAlign:'center', fontSize:20}}>대만 핑동 FISH HOTEL</p>
+      <p style={{textAlign:'center', fontSize:15}}>No. 255號, Minsheng Rd, Pingtung City, Pingtung County, Taiwan 900</p>
       <div style={{margin:5, textAlign:'center'}}>
-        <iframe src={url} style={{border:0, width:'350px', height:'200px'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src={url} style={{border:0, width:'75%', minWidth:'350px',minHeight:'250px'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   );

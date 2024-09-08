@@ -25,7 +25,7 @@ function InvitationLetter() {
       <p style={{textAlign:'center',fontSize:'17px'}}>부디 참석하시어 </p>
       <p style={{textAlign:'center',fontSize:'17px'}}>자리를 빛내주시면 감사하겠습니다. </p>
       <br/>
-      <p style={{textAlign:'right', fontWeight:'bold'}}>- 구송림 주야덕 드림 -</p>
+      <p style={{textAlign:'center', fontWeight:'bold'}}>- 구송림 & 주야덕 드림 -</p>
     </div>
   );
 }
